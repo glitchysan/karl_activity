@@ -1,0 +1,183 @@
+.test {
+    font-weight: bold;
+}
+
+.test2 {
+    font-weight: 300;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+.site-title {
+    font-weight: bold;
+    font-size: 22px;
+    position: absolute;
+    left: 160px;
+}
+
+.site-title-container {
+    display: flex;
+    align-items: center;
+}
+
+.header {
+    font-weight: bold;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
+}
+
+.menu {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.hire-me {
+    background-color: rgb(79, 81, 238);
+    padding: 10px 15px;
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    background: rgba(71, 71, 71, 0.9);
+    padding: 10% 275px;
+}
+
+.hero-left {
+    width: 42%;
+    position: relative;
+}
+
+.hero-right {
+    width: 100%;
+}
+
+.small-logo {
+    position: absolute;
+    left: -60px;
+    top: 100px;
+}
+
+.Port-heading {
+    font-size: 72px;
+}
+
+.Port-sub-heading {
+    padding: 20px 0;
+    opacity: 0.7;
+    font-size: 28px;
+}
+
+.Resume-btn {
+    padding: 20px 30px;
+    background-color: rgb(79, 81, 238);
+    border: none;
+}
+
+.hero-btn-containe {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.Contact-btn {
+    padding: 20px 30px;
+}
+
+.small-text {
+    margin: 30px;
+    opacity: 0.3;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.NAME {
+    margin: 30px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.Port-sub-heading {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+/* Container */
+.about-container {
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    background: rgba(20, 20, 20, 0.9);
+    padding: 5px 300px;
+}
+
+/* Content */
+.about-content {
+    flex: 1;
+    padding: 10%;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.highlight {
+    color: #a12d88;
+}
+
+.subtitle {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #b0b0b0;
+}
+
+h3 {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.description {
+    font-size: 16px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+    color: #d0d0d0;
+}
+
+.highlight-red {
+    color: #ff4d4d;
+    font-weight: bold;
+}
+
+/* Image */
+.about-image img {
+    position: left;
+    width: 250px;
+    height: auto;
+}
+
+/* Button */
+.cta-button {
+    background-color: #a12d88;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.cta-button:hover {
+    background-color: #871e6c;
+}
